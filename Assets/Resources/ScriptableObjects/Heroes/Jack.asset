@@ -30,14 +30,13 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 70e27e1b5fb01ac49a9c0acd269d5ed1, type: 2}
   - {fileID: 11400000, guid: 70e27e1b5fb01ac49a9c0acd269d5ed1, type: 2}
   - {fileID: 11400000, guid: 70e27e1b5fb01ac49a9c0acd269d5ed1, type: 2}
+  - {fileID: 11400000, guid: 70e27e1b5fb01ac49a9c0acd269d5ed1, type: 2}
   - {fileID: 11400000, guid: 76ff67b524d2e04419cd7919fd48fba4, type: 2}
   - {fileID: 11400000, guid: 76ff67b524d2e04419cd7919fd48fba4, type: 2}
   - {fileID: 11400000, guid: 76ff67b524d2e04419cd7919fd48fba4, type: 2}
   - {fileID: 11400000, guid: 76ff67b524d2e04419cd7919fd48fba4, type: 2}
   - {fileID: 11400000, guid: 28652be1c1eee1f4eade069815693534, type: 2}
   - {fileID: 11400000, guid: 28652be1c1eee1f4eade069815693534, type: 2}
-  - {fileID: 11400000, guid: d30b31dc1964b0040a719fe9883fe751, type: 2}
-  - {fileID: 11400000, guid: 6cc014817d9997143bd27b8799c36606, type: 2}
   startingRelics:
   - {fileID: 11400000, guid: 0457efb2ba349c247baf074d98c44222, type: 2}
   startingItems: []
