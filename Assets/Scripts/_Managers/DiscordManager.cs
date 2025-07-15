@@ -3,6 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class DiscordManager : MonoBehaviour
 {
+#if !UNITY_WEBGL
     public long applicationID;
     [Space]
     public string largeImage;
@@ -13,7 +14,7 @@ public class DiscordManager : MonoBehaviour
 
     public Discord.Discord discord;
 
-#if !UNITY_WEBGL
+
     void Start()
     {
         // Log in with the Application ID
