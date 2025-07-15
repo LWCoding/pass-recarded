@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: Vest Up
   cardDisplayName: Vest Up
-  cardImage: {fileID: 21300000, guid: 0b91ea10fa681f54f88d51cf0ea01bf1, type: 3}
+  cardImage: {fileID: 21300000, guid: 37f9e179ceba9054d848db32fe0d4813, type: 3}
   cardType: 3
   characterMovement: 0
   projectileSprite: {fileID: 0}

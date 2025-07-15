@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: Star Punch
   cardDisplayName: Star Punch
-  cardImage: {fileID: 21300000, guid: d87dee560deb58449922d3bea07c556d, type: 3}
+  cardImage: {fileID: 21300000, guid: 37ea991e3a7d3b343b50666c126a9112, type: 3}
   cardType: 0
   characterMovement: 1
   projectileSprite: {fileID: 0}
