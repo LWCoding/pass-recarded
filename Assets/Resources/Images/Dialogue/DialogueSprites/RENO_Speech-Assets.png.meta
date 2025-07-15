@@ -69,7 +69,7 @@ TextureImporter:
       213: -1557317917109065496
     second: idle THINK0038
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -86,10 +86,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -128,6 +130,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -139,6 +143,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -151,6 +156,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -163,6 +169,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -640,9 +647,31 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Idle Angry0000: -6125084946156111725
+      Idle Angry0001: -6387093396335303137
+      Idle Angry0002: 8511043130887150314
+      Idle Angry0003: 5635104486741416409
+      Talk Sorry!0000: 1949384287063122926
+      Talk Sorry!0001: 5875519937331710757
+      Talk Sorry!0002: -5961654276870366805
+      Talk Sorry!0003: 1579380594106445712
+      Talk angry0000: 4727486957988473942
+      Talk angry0001: 767899897650657138
+      Talk angry0002: 4269464737436188392
+      Talk angry0003: -9214543159799419219
+      Talk normal0000: 2179497858412046432
+      Talk normal0001: 1807143170510932762
+      Talk normal0002: -8933320575435703220
+      Talk normal0003: 6714316483518267023
+      Talk think0000: -8281397170884845231
+      Talk think0001: -2209407930757693237
+      Talk think0002: -4885259739524700042
+      Talk think0003: 5268718356666467284
+      idle THINK0000: 6187769986904769131
+      idle THINK0038: -1557317917109065496
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

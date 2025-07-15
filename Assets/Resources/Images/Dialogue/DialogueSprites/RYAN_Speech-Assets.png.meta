@@ -117,7 +117,7 @@ TextureImporter:
       213: -7305582734530582982
     second: RYAN fixed dimentions0037
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -134,10 +134,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -176,6 +178,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -187,6 +191,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -199,6 +204,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -211,6 +217,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1024,9 +1031,47 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      RYAN fixed dimentions0000: -5932770821074265428
+      RYAN fixed dimentions0001: -7955543150327855620
+      RYAN fixed dimentions0002: -9171155370513029569
+      RYAN fixed dimentions0003: 5619998430142290360
+      RYAN fixed dimentions0004: 8068887793804747722
+      RYAN fixed dimentions0005: 3068166469771456303
+      RYAN fixed dimentions0006: 3669736000971856627
+      RYAN fixed dimentions0007: 2572532725072615398
+      RYAN fixed dimentions0008: 1540647954463712392
+      RYAN fixed dimentions0009: -4703122931959089546
+      RYAN fixed dimentions0010: 6665177217584191891
+      RYAN fixed dimentions0011: 1126901509454718299
+      RYAN fixed dimentions0012: 2211474295137659877
+      RYAN fixed dimentions0013: 4042683345964360261
+      RYAN fixed dimentions0014: -7070122867148511512
+      RYAN fixed dimentions0015: -3817989285787740666
+      RYAN fixed dimentions0016: -4316640529673174573
+      RYAN fixed dimentions0017: 6802300400842139578
+      RYAN fixed dimentions0018: 142905662637836125
+      RYAN fixed dimentions0019: 2444164227488399857
+      RYAN fixed dimentions0020: -1078437800510584402
+      RYAN fixed dimentions0021: -1011083499322793724
+      RYAN fixed dimentions0022: 2911896998743119729
+      RYAN fixed dimentions0023: 2792895130800667994
+      RYAN fixed dimentions0024: -7524594242464492110
+      RYAN fixed dimentions0025: -3077431423491763211
+      RYAN fixed dimentions0026: -6744278182669060723
+      RYAN fixed dimentions0027: -6606152136053013246
+      RYAN fixed dimentions0028: 1391218730749982376
+      RYAN fixed dimentions0029: 5629319552735867319
+      RYAN fixed dimentions0030: 352383708147015396
+      RYAN fixed dimentions0031: -286529663747994501
+      RYAN fixed dimentions0032: 135121846772510552
+      RYAN fixed dimentions0033: 9149146022786254919
+      RYAN fixed dimentions0034: 780044099735909021
+      RYAN fixed dimentions0035: -1117016576800317285
+      RYAN fixed dimentions0036: 6995300707543455089
+      RYAN fixed dimentions0037: -7305582734530582982
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

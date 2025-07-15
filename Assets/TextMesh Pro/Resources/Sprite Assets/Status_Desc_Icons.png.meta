@@ -48,7 +48,7 @@ TextureImporter:
       213: 6452595514070867569
     second: Status_Desc_Icons_14
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -65,10 +65,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -107,6 +109,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -118,6 +122,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -130,6 +135,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -142,6 +148,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -472,9 +479,24 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Status_Desc_Icons_0: -5177731016907080699
+      Status_Desc_Icons_1: -2920994361763904487
+      Status_Desc_Icons_10: 2119400264676095580
+      Status_Desc_Icons_11: -6048924576620666371
+      Status_Desc_Icons_12: -896387129768826505
+      Status_Desc_Icons_13: 1800327618136670031
+      Status_Desc_Icons_14: 6452595514070867569
+      Status_Desc_Icons_2: 1232442407459897970
+      Status_Desc_Icons_3: -10057630187046665
+      Status_Desc_Icons_4: 8583629187214809614
+      Status_Desc_Icons_5: -631226205109210674
+      Status_Desc_Icons_6: 6389170068627576071
+      Status_Desc_Icons_7: 6981376102808780526
+      Status_Desc_Icons_8: 5881255070085479008
+      Status_Desc_Icons_9: 3312258992155591136
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

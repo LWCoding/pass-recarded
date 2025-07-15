@@ -51,7 +51,7 @@ TextureImporter:
       213: 8319089771652249524
     second: Speech Box Opening0015
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -68,10 +68,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -110,6 +112,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -121,6 +125,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -133,6 +138,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -145,6 +151,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -496,9 +503,25 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Speech Box Opening0000: -1855168034289585838
+      Speech Box Opening0001: -7136269372211092643
+      Speech Box Opening0002: 7211576059322591976
+      Speech Box Opening0003: 4925838849527775415
+      Speech Box Opening0004: 1503132680128250289
+      Speech Box Opening0005: -3252528118270105557
+      Speech Box Opening0006: 3336033568483086889
+      Speech Box Opening0007: -309185568812315728
+      Speech Box Opening0008: -2857321586505950613
+      Speech Box Opening0009: -539235851469630343
+      Speech Box Opening0010: 8637809018618535858
+      Speech Box Opening0011: -1698138689901438556
+      Speech Box Opening0012: 967694758169537526
+      Speech Box Opening0013: -2576852216696575763
+      Speech Box Opening0014: -6535333246087878233
+      Speech Box Opening0015: 8319089771652249524
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
