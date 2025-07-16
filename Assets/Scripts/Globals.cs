@@ -169,11 +169,12 @@ public static class Globals
             {
                 return encounter.isBoss == bossOnly && encounter.isMiniboss == minibossOnly;
             });
-            // Ensure that the relevant blacklist doesn't contain all possible encounters.
-            if (relevantBlacklist.Count != possibleEncounters.Count)
+            // Remove all blacklisted encounters from possible encounter list and store separately.
+            // Only set the original list to equal this IF the filtered list is not empty.
+            List<Encounter> filteredEncounters = possibleEncounters.FindAll((encounter) => !encounterBlacklist.Contains(encounter));
+            if (filteredEncounters.Count != 0)
             {
-                // Filter out the encounters list to only include those not in the blacklist.
-                possibleEncounters = possibleEncounters.FindAll((encounter) => !encounterBlacklist.Contains(encounter));
+                possibleEncounters = filteredEncounters;
             }
         }
         return possibleEncounters[Random.Range(0, possibleEncounters.Count)];

@@ -135,10 +135,10 @@ public class BattleEnemyController : BattleCharacterController
         {
             TopBarController.Instance.AnimateTokensToBalance(TokenType.COIN, Camera.main.WorldToScreenPoint(gameObject.transform.position), _rewardAmount);
         }
-        if (_xpRewardAmount > 0)
-        {
-            TopBarController.Instance.AnimateTokensToBalance(TokenType.XP, Camera.main.WorldToScreenPoint(gameObject.transform.position), _xpRewardAmount);
-        }
+        //if (_xpRewardAmount > 0)
+        //{
+        //    TopBarController.Instance.AnimateTokensToBalance(TokenType.XP, Camera.main.WorldToScreenPoint(gameObject.transform.position), _xpRewardAmount);
+        //}
         // If the player died too, stop here.
         if (!BattleController.Instance.playerBCC.IsAlive()) { return; }
         // Only IF there are no remaining enemies, end the battle.

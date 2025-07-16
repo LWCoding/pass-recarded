@@ -25,7 +25,7 @@ MonoBehaviour:
   - name: Shop
     type: 2
     sprite: {fileID: 21300000, guid: b69caad32cbb34c49bdc409c72688ba6, type: 3}
-    weightedChance: 3
+    weightedChance: 2
     iconScale: 0.5
     isObstacle: 0
   - name: Treasure

@@ -155,7 +155,7 @@ public partial class BattleController : MonoBehaviour
             case "Treevil":
                 bec.AddStatusEffect(Globals.GetStatus(Effect.GROWTH, 1));
                 break;
-            case "Lone":
+            case "Lone Fox":
                 bec.AddStatusEffect(Globals.GetStatus(Effect.BARRIER, 3));
                 break;
             case "Turtleist":
