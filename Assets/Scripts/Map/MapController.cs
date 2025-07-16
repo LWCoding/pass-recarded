@@ -313,7 +313,7 @@ public class MapController : MonoBehaviour
                     }
                     else
                     {
-                        MapLocationType mapLocationType = _currentMapInfo.mapLocations.Find((m) => m.type == MapChoice.UPGRADE_MACHINE);
+                        MapLocationType mapLocationType = _currentMapInfo.mapLocations.Find((m) => m.type == MapChoice.TREASURE);
                         optionObject.GetComponent<MapOptionController>().SetType(mapLocationType, floor + 1);
                         if (!_mapOptionDictionary.ContainsKey(floor))
                         {

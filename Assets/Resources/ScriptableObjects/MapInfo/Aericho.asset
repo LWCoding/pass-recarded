@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapType: 2
   mapBGColor: {r: 0.40784314, g: 0.49019608, b: 0.49411765, a: 1}
-  numFloors: 4
+  numFloors: 10
   mapLocations:
   - name: Monster
     type: 1
@@ -37,7 +37,7 @@ MonoBehaviour:
   - name: Upgrade
     type: 6
     sprite: {fileID: 21300000, guid: 75c465c48eba66e489ee4568627ea302, type: 3}
-    weightedChance: 4
+    weightedChance: 0
     iconScale: 0.5
     isObstacle: 0
   - name: Miniboss

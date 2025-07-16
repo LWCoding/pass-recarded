@@ -21,8 +21,8 @@ MonoBehaviour:
   spriteOffset: {x: 0, y: -0.15}
   spriteScale: {x: 1.25, y: 1.25}
   shadowScale: {x: 3.3, y: 0.77}
-  enemyHealthMin: 45
-  enemyHealthMax: 55
+  enemyHealthMin: 55
+  enemyHealthMax: 65
   enemyRewardMin: 50
   enemyRewardMax: 65
   enemyXPReward: 5

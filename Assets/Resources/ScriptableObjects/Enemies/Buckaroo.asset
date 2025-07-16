@@ -23,9 +23,10 @@ MonoBehaviour:
   shadowScale: {x: 3.3, y: 0.77}
   enemyHealthMin: 45
   enemyHealthMax: 50
-  enemyRewardMin: 55
-  enemyRewardMax: 65
+  enemyRewardMin: 40
+  enemyRewardMax: 50
   enemyXPReward: 5
   enemyIcon: {fileID: 21300000, guid: 555245d1cf49b6f408609f3962fb55ee, type: 3}
   locationFound: Forest
   enemyAI: 4
+  _possibleEncounterDialogues: []

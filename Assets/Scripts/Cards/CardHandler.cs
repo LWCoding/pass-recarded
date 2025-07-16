@@ -127,14 +127,14 @@ public class CardHandler : MonoBehaviour
         cardText = card.GetCardStats().cardDesc;
         // Replace the [ATK] and [DEF] placeholders with the actual values.
         int calcDamageValue = Mathf.Max(0, card.GetCardStats().damageValue + calcStrengthBuff);
-        cardText = cardText.Replace("[ATK]", calcDamageValue.ToString() + strengthBuffText);
+        cardText = cardText.Replace("[ATK]", (calcDamageValue + strengthBuffText).ToString());
         cardText = cardText.Replace("[DEF]", (card.GetCardStats().blockValue + defenseBuff).ToString() + defenseBuffText);
         // Replace the [ATKLUCK] placeholders with the actual values
         CardModifier luckAtkModifier = card.GetCardStats().modifiers.Find((m) => m.trait == Trait.ADDITIONAL_LUCK_DAMAGE);
         if (luckAtkModifier != null)
         {
             int calcLuckDamageValue = Mathf.Max(0, luckAtkModifier.amplifier + calcStrengthBuff);
-            cardText = cardText.Replace("[ATKLUCK]", calcLuckDamageValue.ToString() + calcStrengthBuff);
+            cardText = cardText.Replace("[ATKLUCK]", (calcLuckDamageValue).ToString());
         }
         // Update the status effect texts with their actual icons.
         cardText = GameController.GetDescriptionWithIcons(cardText);

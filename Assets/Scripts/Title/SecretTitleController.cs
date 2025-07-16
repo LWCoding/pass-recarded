@@ -37,7 +37,7 @@ public class SecretTitleController : MonoBehaviour
     public void StartNewGame()
     {
         // Initialize the hero with base information.
-        GameController.SetChosenHero(Globals.GetBaseHero(HeroTag.JACK));
+        GameController.SetChosenHero(Globals.GetBaseHero(HeroTag.RYAN));
         GameController.SetSeenEnemies(new List<Encounter>());
         GameController.SetMapScene(MapScene.AERICHO_CITY);
         GameController.SetMapObject(null);

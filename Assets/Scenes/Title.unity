@@ -3624,7 +3624,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: BETA v1.2
+  m_text: BETA v1.3
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e0ad5e440d0d2a04eb61de2388637ea4, type: 2}
   m_sharedMaterial: {fileID: -3051246655096822723, guid: e0ad5e440d0d2a04eb61de2388637ea4, type: 2}
@@ -4265,9 +4265,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ce465cf4651b4c41bb9e62a53bd0e1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  applicationID: 1137213632640462918
-  largeImage: thumbnail
-  largeText: Project ASS
 --- !u!1 &691482684
 GameObject:
   m_ObjectHideFlags: 0
