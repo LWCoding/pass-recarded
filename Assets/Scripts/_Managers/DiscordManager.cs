@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class DiscordManager : MonoBehaviour
 {
-#if !UNITY_WEBGL
+#if !UNITY_WEBGL && !UNITY_STANDALONE_LINUX
     public long applicationID;
     [Space]
     public string largeImage;
